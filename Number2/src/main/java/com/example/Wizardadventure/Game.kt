@@ -17,7 +17,10 @@ class Game(
 
             when (choice) {
                 "1" -> viewStats()
-                "2" -> println("Battle system coming next!")
+                "2" -> {
+                    val battle = Battle(wizard)
+                    battle.start()
+                }
                 "3" -> {
                     println("Goodbye, ${wizard.name}!")
                     break
