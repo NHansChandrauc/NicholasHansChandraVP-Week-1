@@ -53,7 +53,6 @@ fun main() {
                 println("Please choose a number from 1 to 7.")
                 println()
                 println("Returning to main menu...")
-                main()
             }
         }
     }
